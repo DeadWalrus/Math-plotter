@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"core"},{"l":"graph"},{"l":"graph.fplot"},{"l":"graphcontrol.functions"},{"l":"graphcontrol.functionselection"},{"l":"graphcontrol.functionselection.functioncontrols"},{"l":"interfaces"}];updateSearchResults();
