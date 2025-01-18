@@ -15,6 +15,10 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 public class Main extends Application{
     /**
      * Instruction text
@@ -70,6 +74,13 @@ public class Main extends Application{
         mainPane.setCenter(this.coordPlane);
         mainPane.setBottom(this.funcSelect);
         mainPane.setRight(this.funcTable);
+
+        try{
+            Files.createDirectory(Paths.get("FunctionHistory/"));
+        } catch(IOException ex){
+            System.out.println("Could not create directory.");
+        }
+
 
         Scene s = new Scene(this.mainPane);
         primaryStage.setScene(s);
