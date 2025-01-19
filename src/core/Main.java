@@ -23,7 +23,7 @@ public class Main extends Application{
     /**
      * Instruction text
      */
-    private Text helpText = new Text("Enter function coefficients, and graph them bu clicking 'Update'. \nYou can use the function table to enter in any value you want to see the result.\n" +
+    private Text helpText = new Text("Enter function coefficients, and graph them by clicking 'Update'. \nYou can use the function table to enter in any value you want to see the result.\n" +
                                           "To view function history, simply click the 'History' button");
 
     /**
