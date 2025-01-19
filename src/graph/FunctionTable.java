@@ -67,6 +67,7 @@ public class FunctionTable extends VBox implements FunctionControl {
         this.lYLabel = new Label("\tY: ");
         this.tfXValue = new TextField("input");
         this.tfXValue.setPrefColumnCount(3);
+        this.setStyle("-fx-background-color: lightgray");
 
         this.lYLabel.setLayoutX(this.getWidth()/2);
         this.xyLabels = new Group(this.lXLabel, this.lYLabel);
